@@ -6,7 +6,7 @@
   },
   "routes": [
     { "src": "/assets/(.*)", "dest": "/assets/$1" },
-    { "src": "/favicon.svg", "dest": "/favicon.svg" },
+    { "src": "/(.*\\.(mp4|webm|mov|mp3|svg|png|jpg|jpeg|gif|webp|ico|json))", "dest": "/$1" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
